@@ -33,7 +33,6 @@ Cada zona incluye:
 
 1. **Clona este repositorio** a tu máquina local:
     ```bash
-    git clone https://github.com/tu-usuario/zonas-turisticas-monterrey.git
     ```
 2. **Accede al directorio del proyecto**:
     ```bash
