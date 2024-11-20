@@ -29,16 +29,5 @@ Cada zona incluye:
 - **Responsividad**: La página está diseñada para ser visualizada correctamente en dispositivos de diferentes tamaños, gracias al uso de una imagen adaptable y un diseño limpio.
 
 
-### Pasos para ejecutar el proyecto
 
-1. **Clona este repositorio** a tu máquina local:
-    ```bash
-    ```
-2. **Accede al directorio del proyecto**:
-    ```bash
-    cd zonas-turisticas-monterrey
-    ```
-3. **Abre el archivo `index.html`** en tu navegador preferido para ver el proyecto en acción.
-
-## Estructura del Proyecto
 
