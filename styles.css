@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Header */
+#header {
+    background-color: #1e90ff;
+    padding: 20px;
+}
+
+#header h1 {
+    color: white;
+    font-size: 2.5em;
+}
+
+/* Sección de cada zona turística */
+.zona {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.zona h2 {
+    color: #4682b4;
+    font-size: 1.8em;
+}
+
+/* Descripción, transporte y actividades */
+.descripcion, .transporte, .actividad {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.transporte {
+    color: #008000; /* Verde para las rutas de transporte */
+}
+
+.actividad {
+    color: rgba(255, 165, 0, 0.8); /* Naranja en formato RGBA */
+}
+
+/* Estilos para la imagen */
+.imagen {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilos para el pie de página */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos avanzados - Pseudoclases */
+.zona:hover {
+    background-color: #e0e0e0;
+}
+
+.zona:active {
+    background-color: #b0b0b0;
+}
+
+#zona1:hover {
+    border-left: 5px solid #1e90ff;
+}
+
+#zona2:hover {
+    border-left: 5px solid #32cd32;
+}
+
+#zona3:hover {
+    border-left: 5px solid #ff6347;
+}
+
+#zona4:hover {
+    border-left: 5px solid #8a2be2;
+}
+
+#zona5:hover {
+    border-left: 5px solid #228b22;
+}
+
+#zona6:hover {
+    border-left: 5px solid #ff4500;
+}
+
+#zona7:hover {
+    border-left: 5px solid #a52a2a;
+}
+
+#zona8:hover {
+    border-left: 5px solid #d2691e;
+}
