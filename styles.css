@@ -6,6 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Estilo común para los títulos */
 h1, h2 {
     text-align: center;
     color: #333;
@@ -13,9 +14,9 @@ h1, h2 {
 
 /* Header */
 #header {
-    font-family: "Caudex", sans-serif; 
     background-color: #496077ef;
     padding: 20px;
+    font-family: inherit; /* Hereda la fuente de body */
 }
 
 #header h1 {
@@ -25,6 +26,7 @@ h1, h2 {
 
 /* Sección de cada zona turística */
 .zona {
+    text-align: center;
     display: block;
     margin: 20px;
     padding: 20px;
@@ -32,17 +34,19 @@ h1, h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Los títulos dentro de cada zona */
 .zona h2 {
     color: #4682b4;
     font-size: 1.8em;
 }
 
-/* Descripción, transporte y actividades */
+/* Descripción, transporte y actividades: Estilos comunes */
 .descripcion, .transporte, .actividad {
     font-size: 1.1em;
     color: #555;
 }
 
+/* Especificidad para los colores de cada clase */
 .transporte {
     color: #008000; /* Verde para las rutas de transporte */
 }
@@ -62,7 +66,7 @@ h1, h2 {
 
 /* Estilos para el pie de página */
 #footer {
-    background-color: #333;
+    background-color: #443e3e;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -77,34 +81,40 @@ h1, h2 {
     background-color: #b0b0b0;
 }
 
+/* Zona con diferentes bordes según el id */
+.zona:hover {
+    border-left: 5px solid transparent; /* Valor por defecto */
+}
+
+/* Especificidad para cada zona */
 #zona1:hover {
-    border-left: 5px solid #1e90ff;
+    border-left-color: #1e90ff;
 }
 
 #zona2:hover {
-    border-left: 5px solid #32cd32;
+    border-left-color: #32cd32;
 }
 
 #zona3:hover {
-    border-left: 5px solid #ff6347;
+    border-left-color: #ff6347;
 }
 
 #zona4:hover {
-    border-left: 5px solid #8a2be2;
+    border-left-color: #8a2be2;
 }
 
 #zona5:hover {
-    border-left: 5px solid #228b22;
+    border-left-color: #228b22;
 }
 
 #zona6:hover {
-    border-left: 5px solid #ff4500;
+    border-left-color: #ff4500;
 }
 
 #zona7:hover {
-    border-left: 5px solid #a52a2a;
+    border-left-color: #a52a2a;
 }
 
 #zona8:hover {
-    border-left: 5px solid #d2691e;
+    border-left-color: #d2691e;
 }
